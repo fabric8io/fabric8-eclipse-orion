@@ -12,5 +12,6 @@ EXPOSE 8080
 WORKDIR /opt/eclipse
 
 ADD  orion.conf /opt/eclipse/orion.conf
+ADD  .gitconfig /root/.gitconfig
 
 CMD ["/opt/eclipse/orion"]
